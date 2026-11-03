@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cue Coach</title>
+    <meta name="description" content="Cue Coach — live cues on the beat of any song." />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="logo.png" />
+    <link rel="apple-touch-icon" href="logo.png" />
+  </head>
+  <body>
+    <header class="topnav">
+      <div class="container">
+        <a href="./" class="brand">
+          <img src="logo.png" alt="" class="brand-logo" />
+          <span>Cue Coach</span>
+        </a>
+        <nav>
+          <a href="privacy/">Privacy</a>
+          <a href="terms/">Terms</a>
+          <a href="support/">Support</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <img src="logo.png" alt="Cue Coach" class="hero-logo" />
+        <h1>Cue Coach</h1>
+        <p class="tagline">Live cues on the beat of any song, for every class you teach.</p>
+      </section>
+
+      <section class="links">
+        <a class="link-card" href="privacy/">
+          <span class="link-text">
+            <span class="link-title">Privacy Policy</span>
+            <span class="link-desc">How Cue Coach handles your data.</span>
+          </span>
+          <span class="chev">&rsaquo;</span>
+        </a>
+        <a class="link-card" href="terms/">
+          <span class="link-text">
+            <span class="link-title">Terms of Use</span>
+            <span class="link-desc">Your agreement when using the app.</span>
+          </span>
+          <span class="chev">&rsaquo;</span>
+        </a>
+        <a class="link-card" href="support/">
+          <span class="link-text">
+            <span class="link-title">Support</span>
+            <span class="link-desc">Get help, report a bug, share feedback.</span>
+          </span>
+          <span class="chev">&rsaquo;</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <span>&copy; <span id="year"></span> Cue Coach</span>
+        <span>
+          <a href="privacy/">Privacy</a>
+          <a href="terms/">Terms</a>
+          <a href="support/">Support</a>
+        </span>
+      </div>
+    </footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
